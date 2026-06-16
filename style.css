@@ -15,14 +15,20 @@ header{
     background-color: #005B8E;
     padding: 1rem;
     text-align: center;
+}
 
-    
+.banner{
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .root{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     gap: 3rem;
-     justify-content: center;
 }
 
 .root a{
@@ -31,9 +37,17 @@ header{
     transition: 0.3s;  
 }
 
+.cart{
+     position: absolute;
+    right: 20px;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
 
 h1{
     color: #005B8E;
+    padding: 1rem;
 }
 
 .container{
@@ -43,5 +57,60 @@ h1{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 1.5rem;
+}
 
+.tabela{
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h3{
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    min-height: 70px;
+}
+
+p{
+     color: #005B8E;
+     text-align: center;
+    cursor: pointer;
+}
+
+.botao_tabela{
+    display: block;
+    background-color: #005B8E;
+    color: white;
+    margin: 0 auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao_tabela:hover{
+    transform: scale(1.05);
+    background-color: #0077b6;
+}
+
+h2{
+    color: #005B8E;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.local{
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
