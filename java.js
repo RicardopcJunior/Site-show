@@ -3,6 +3,9 @@ const listaCarrinho = document.getElementById("lista-carrinho");
 const total = document.getElementById("total");
 const botoes = document.querySelectorAll(".botao_tabela");
 const conteudo= document.querySelector('.conteudo');
+const menucarrinho = document.querySelector(".menu-carrinho");
+const cart = document.querySelector(".cart");
+const remover = document.querySelector(".remover-item")
 
 for (let i = 0; i < botoes.length; i++) {
 
@@ -29,6 +32,7 @@ function mostrar_carrinho(){
             <p>
                 ${carrinho[i].ingresso}
                 - R$ ${carrinho[i].preco}
+                <button onclick="removerItem(${i})">❌</button>
             </p>
         `;
     }
@@ -67,10 +71,18 @@ function mais_barato(lista){
     return barato;
 }
 
-const menucarrinho = document.querySelector(".menu-carrinho");
-const cart = document.querySelector(".cart");
 
 cart.addEventListener('click', ()=>{
     menucarrinho.classList.toggle("ativo");
      conteudo.classList.toggle('ativo');
+});
+
+function removerItem(indice){
+    carrinho.splice(indice, 1);
+    mostrar_carrinho();
+}
+
+remover.addEventListener('click', ()=>{
+    carrinho.length = 0;
+    mostrar_carrinho();
 });

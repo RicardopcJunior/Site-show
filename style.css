@@ -53,6 +53,17 @@ header{
     right: 0;
 }
 
+.remover-item{
+    display: block;
+    background-color: #005B8E;
+    color: white;
+    margin: 0 auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .conteudo{
     transition: margin-right 0.3s;
 }
@@ -106,7 +117,7 @@ h3{
     padding: 1rem;
     text-align: center;
     cursor: pointer;
-    min-height: 70px;
+    min-height: 100px;
 }
 
 p{
