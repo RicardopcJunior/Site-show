@@ -9,7 +9,14 @@
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <header class="root">
+    <section class="menu-carrinho">
+        <h2>Carrinho</h2>
+        <div id="lista-carrinho"></div>
+
+        <h3 id="total">Total: R$ 0,00</h3>
+        </section>
+    <div class="conteudo">
+        <header class="root">
         <a href="#show">Show</a>
         <a href="#menu">Menu</a>
         <a href="#local">Local de venda</a>
@@ -27,84 +34,84 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                     <h3>GONÇALVES RODEO FEST 2026</h3>
                     <P>28 - 31 de Maio</P>
                     <p>R$100,00</p>
-                    <button class="botao_tabela" >Comprar</button>
+                    <button class="botao_tabela" data-ingresso="GONÇALVES RODEO FEST 2026" data-valor="100">Comprar</button>
                 </div>
                 <div class="tabela">
                     <img src="img/10698.webp" alt="ESTACIOMENTO DO JEAN">
-                    <h3>ESTACIOMENTO DO JEAN | FENAMINHO 2026</h3>
+                    <h3>ESTACIOMENTO DO JEAN | FENAMILNHO 2026</h3>
                     <P>29 - 07 de Maio</P>
                     <p>R$180,00</p>
-                    <button class="botao_tabela">Comprar</button>
+                    <button class="botao_tabela" data-ingresso="ESTACIOMENTO DO JEAN | FENAMILNHO 2026" data-valor="180">Comprar</button>
                 </div>
                 <div class="tabela">
                     <img src="img/42408.webp" alt="PIXNEJO COM MARLON OLIVEIRA">
                     <h3>PIXNEJO COM MARLON OLIVEIRA</h3>
                     <p>29 de Maio</p>
                     <p>R$110,00</p>
-                    <button class="botao_tabela">Comprar</button>
+                    <button class="botao_tabela" data-ingresso="PIXNEJO COM MARLON OLIVEIRA" data-valor="110">Comprar</button>
                 </div>
                 <div class="tabela">
                     <img src="img/42495.webp" alt="EVVA 360°">
                     <h3>EVVA 360°</h3>
                     <P>29 de Maio</P>
                     <p>R$130,00</p>
-                    <button class="botao_tabela">Comprar</button>
+                    <button class="botao_tabela" data-ingresso="EVVA 360°" data-valor="130">Comprar</button>
                 </div>
                 <div class="tabela">
                     <img src="img/42256.webp" alt="REALIDAE CRUEL">
                     <h3>REALIDAE CRUEL - O LEGADO</h3>
                     <P>24 de Maio</P>
                     <p>R$140,00</p>
-                    <button class="botao_tabela">Comprar</button>
+                    <button class="botao_tabela" data-ingresso="REALIDAE CRUEL - O LEGADO" data-valor="140">Comprar</button>
                 </div>
                 <div class="tabela">
                     <img src="img/42308.webp" alt="ABRAPE 2026">
                     <h3>ABRAPE 2026 | MISSÃO BRASÍLIA</h3>
                     <P>26 de Maio</P>
                     <p>R$170,00</p>
-                    <button class="botao_tabela">Comprar</button>
+                    <button class="botao_tabela" data-ingresso="ABRAPE 2026 | MISSÃO BRASÍLIA" data-valor="170">Comprar</button>
                 </div>
                 <div class="tabela">
                     <img src="img/42488.webp" alt="JOGO 4">
                     <h3>JOGO 4 - SEMIFINAL NBB18</h3>
                     <p>26 de Maio</p>
                     <p>R$200,00</p>
-                    <button class="botao_tabela">Comprar</button>
+                    <button class="botao_tabela" data-ingresso="JOGO 4 - SEMIFINAL NBB18" data-valor="200">Comprar</button>
                 </div>
                 <div class="tabela">
                     <img src="img/10752.webp" alt="BOTECO DOIS ARLINDO">
                     <h3>BOTECO DOIS ARLINDO</h3>
                     <P>26 de Maio</P>
                     <p>R$200,00</p>
-                    <button class="botao_tabela">Comprar</button>
+                    <button class="botao_tabela" data-ingresso="BOTECO DOIS ARLINDO" data-valor="200">Comprar</button>
                 </div>
                 <div class="tabela">
                     <img src="img/39961.webp" alt="11 ALMOÇO SERTANEJO">
                     <h3>11 ALMOÇO SERTANEJO</h3>
                     <p>24 de Maio</p>
                     <p>R$110,00</p>
-                    <button class="botao_tabela">Comprar</button>
+                    <button class="botao_tabela" data-ingresso="11 ALMOÇO SERTANEJO" data-valor="110">Comprar</button>
                 </div>
                 <div class="tabela">
                     <img src="img/40275.webp" alt="MELI MUSIC">
                     <h3>MELI MUSIC</h3>
                     <P>24 de Maio</P>
                     <p>R$100,00</p>
-                    <button class="botao_tabela">Comprar</button>
+                    <button class="botao_tabela" data-ingresso="MELI MUSIC" data-valor="100">Comprar</button>
                 </div>
                 <div class="tabela">
                     <img src="img/40846.webp" alt="GRAU É ARTE">
                     <h3>GRAU É ARTE</h3>
                     <p>24 de Maio</p>
                     <p>R$150,00</p>
-                    <button class="botao_tabela">Comprar</button>
+                    <button class="botao_tabela" data-ingresso="GRAU É ARTE" data-valor="150">Comprar</button>
                 </div>
                 <div class="tabela">
                     <img src="img/42295.webp" alt="6 ANOS DE CONVERSA FIADA">
                     <h3>6 ANOS DE CONVERSA FIADA</h3>
                     <p>24 de Maio</p>
                     <p>R$120,00</p>
-                    <button class="botao_tabela">Comprar</button>
+                    <button class="botao_tabela" data-ingresso="6 ANOS DE CONVERSA FIADA" data-valor="120">Comprar</button>
                 </div>
             </div>
 
@@ -119,7 +126,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     <footer>
 
     </footer>
+    </div>
     <script src="java.js"></script>
 </body>
-<script src="java.js"></script>
 </html>
