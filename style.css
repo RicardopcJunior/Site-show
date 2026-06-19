@@ -187,8 +187,8 @@ h2{
     }
 
     .menu-carrinho{
-        width: 160px;
-        right: -160px;
+        width: 150px;
+        right: -150px;
     }
 
     .menu-carrinho.ativo{
@@ -197,7 +197,7 @@ h2{
 
     /* Empurra o site */
     .conteudo.ativo{
-        margin-right: 160px;
+        margin-right: 150px;
     }
 
     .tabela{
