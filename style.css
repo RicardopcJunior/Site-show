@@ -176,7 +176,7 @@ h2{
 @media (max-width: 768px){
 
     .root{
-        gap: 1rem;
+        gap: 0.5rem;
         flex-wrap: wrap;
         padding: 0.5rem;
     }
@@ -187,8 +187,8 @@ h2{
     }
 
     .menu-carrinho{
-        width: 150px;
-        right: -150px;
+        width: 180px;
+        right: -180px;
     }
 
     .menu-carrinho.ativo{
@@ -197,7 +197,7 @@ h2{
 
     /* Empurra o site */
     .conteudo.ativo{
-        margin-right: 150px;
+        margin-right: 180px;
     }
 
     .tabela{
@@ -220,9 +220,6 @@ h2{
         text-align: center;
     }
 
-    h1{
-        font-size: 2.5rem;
-    }
 }
 
 /* Celulares pequenos */
