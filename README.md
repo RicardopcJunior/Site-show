@@ -14,13 +14,13 @@ Projeto desenvolvido com HTML, CSS e JavaScript.
 - CSS3
 - JavaScript
 
-  ## Preview
+  ## Pré-visualização
 
-![Home](./imagem/home.png)
+![Lar](./img/home.png)
 
-![Carrinho](./imagem/carrinho.png)
+![Carrinho](./img/carrinho.png)
 
-![Mobile](./imagem/mobile.png)
+![Móvel](./img/mobile.png)
 
 ## Demonstração
 https://site-show1.vercel.app/
