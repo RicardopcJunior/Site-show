@@ -14,10 +14,15 @@ Projeto desenvolvido com HTML, CSS e JavaScript.
 - CSS3
 - JavaScript
 
-  ## Pré-visualização
+## Pré-visualização
 
-![Carrinho](./img/carrinho.jpeg)
+### Página Inicial
 ![Home](./img/home.jpeg)
+
+### Carrinho de Compras
+![Carrinho](./img/carrinho.jpeg)
+
+### Versão Mobile
 ![Mobile](./img/mobile.jpeg)
 
 ## Demonstração
