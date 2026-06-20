@@ -16,11 +16,9 @@ Projeto desenvolvido com HTML, CSS e JavaScript.
 
   ## Pré-visualização
 
-![Lar](./img/home.png)
-
-![Carrinho](./img/carrinho.png)
-
-![Móvel](./img/mobile.png)
+![Carrinho](./img/carrinho.jpeg)
+![Home](./img/home.jpeg)
+![Mobile](./img/mobile.jpeg)
 
 ## Demonstração
 https://site-show1.vercel.app/
