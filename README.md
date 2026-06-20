@@ -13,6 +13,9 @@ Projeto desenvolvido com HTML, CSS e JavaScript.
 - HTML5
 - CSS3
 - JavaScript
+  
+  ## Demonstração
+https://site-show1.vercel.app/
 
 ## Pré-visualização
 
@@ -25,6 +28,4 @@ Projeto desenvolvido com HTML, CSS e JavaScript.
 ### Versão Mobile
 ![Mobile](./img/mobile.jpeg)
 
-## Demonstração
-https://site-show1.vercel.app/
 
